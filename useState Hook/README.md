@@ -89,9 +89,9 @@ const [ index , setIndex ] = useState ( 0 );
 
 - State variables are declared by calling the useState Hook.
 
-Hooks are special functions that start with **"use"** . They let you **“hook into”** React features like state.
+- Hooks are special functions that start with **"use"** . They let you **“hook into”** React features like state.
 
-Hooks might remind you of imports: they need to be called unconditionally. Calling Hooks, including useState , is only valid at the top level of a component or another Hook.
+- Hooks might remind you of imports: they need to be called unconditionally. Calling Hooks, including useState , is only valid at the top level of a component or another Hook.
 
 The useState returns a pair of values:
 
